@@ -1,0 +1,30 @@
+body {
+    background-image: url("../../img/post-image.jpg");
+}
+
+.main-section {
+    background-image: url("../../img/post-image.jpg");
+
+}
+
+article {
+
+   p{
+    color: $nickel;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  } 
+}
+
+
+.salmon {
+    color: $fuzzy-wuzzy !important;
+}
+
+nav {
+    background-color: $Eerie-black;
+    .nav-link {
+        color: $white;
+    }
+}

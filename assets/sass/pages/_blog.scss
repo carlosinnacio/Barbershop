@@ -1,0 +1,73 @@
+.main-section {
+    width: 100vh;
+    background-image: url("../../img/post-image.jpg");
+    background-repeat: no-repeat;
+    box-sizing: cover;
+    background-position: 80%;
+    h1{
+        font-family: playfair;
+        font-weight: 900;
+        font-size: 70px;
+        font-style: italic;
+        width: 100vh;
+        text-align: center;
+        color: $white;
+    }
+}
+
+article {
+    h5 {
+        margin-left: 100px;
+        color: $nickel;
+    }
+    .botones {
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+.nombre-naomi {
+    h5 {
+        font-family: playfair;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 40px;
+    }
+
+    p{
+        margin: 0;
+    }
+    vertical-align: middle;
+    
+    
+    margin-right: 0;
+}
+
+.texto-naomi {
+    color: $nickel;
+    margin: 0;
+   vertical-align: middle;
+   margin-top: 130px;
+
+}
+
+.foto-naomi, .nombre-naomi, .texto-naomi {
+    display: inline-block;
+}
+
+.paginas{
+    padding-top: 100px;
+    background-color: $light-gray;
+    nav{
+        background-color: $light-gray;
+    }
+    .page-link, .page-item {
+        color: $Eerie-black;
+    }
+}
+
+.pie{
+    background-color: $Eerie-black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
